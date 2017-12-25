@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59132A841FF0DE1F00C402FA /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59132A831FF0DE1F00C402FA /* LoginController.swift */; };
 		596148471FF0B202005D677D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596148461FF0B202005D677D /* AppDelegate.swift */; };
 		5961484C1FF0B202005D677D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5961484A1FF0B202005D677D /* Main.storyboard */; };
 		5961484F1FF0B202005D677D /* KyrptoWallet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5961484D1FF0B202005D677D /* KyrptoWallet.xcdatamodeld */; };
@@ -14,7 +15,6 @@
 		596148541FF0B202005D677D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596148521FF0B202005D677D /* LaunchScreen.storyboard */; };
 		5961485F1FF0B202005D677D /* KyrptoWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961485E1FF0B202005D677D /* KyrptoWalletTests.swift */; };
 		5961486A1FF0B202005D677D /* KyrptoWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596148691FF0B202005D677D /* KyrptoWalletUITests.swift */; };
-		596148781FF0B44B005D677D /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596148771FF0B44B005D677D /* LoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +35,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		596148431FF0B202005D677D /* KyrptoWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KyrptoWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59132A831FF0DE1F00C402FA /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginController.swift; path = "Bits/View Controllers/LoginController.swift"; sourceTree = "<group>"; };
+		596148431FF0B202005D677D /* Bits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		596148461FF0B202005D677D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5961484B1FF0B202005D677D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5961484E1FF0B202005D677D /* KyrptoWallet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KyrptoWallet.xcdatamodel; sourceTree = "<group>"; };
 		596148501FF0B202005D677D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		596148531FF0B202005D677D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		596148551FF0B202005D677D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5961485A1FF0B202005D677D /* KyrptoWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KyrptoWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5961485A1FF0B202005D677D /* BitsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5961485E1FF0B202005D677D /* KyrptoWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KyrptoWalletTests.swift; sourceTree = "<group>"; };
 		596148601FF0B202005D677D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		596148651FF0B202005D677D /* KyrptoWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KyrptoWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		596148651FF0B202005D677D /* BitsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		596148691FF0B202005D677D /* KyrptoWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KyrptoWalletUITests.swift; sourceTree = "<group>"; };
 		5961486B1FF0B202005D677D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		596148771FF0B44B005D677D /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginController.swift; path = KyrptoWallet/ViewControllers/LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +79,10 @@
 		5961483A1FF0B202005D677D = {
 			isa = PBXGroup;
 			children = (
-				596148771FF0B44B005D677D /* LoginController.swift */,
-				596148451FF0B202005D677D /* KyrptoWallet */,
-				5961485D1FF0B202005D677D /* KyrptoWalletTests */,
-				596148681FF0B202005D677D /* KyrptoWalletUITests */,
+				59132A831FF0DE1F00C402FA /* LoginController.swift */,
+				596148451FF0B202005D677D /* Bits */,
+				5961485D1FF0B202005D677D /* BitsTests */,
+				596148681FF0B202005D677D /* BitsUITests */,
 				596148441FF0B202005D677D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,14 +90,14 @@
 		596148441FF0B202005D677D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				596148431FF0B202005D677D /* KyrptoWallet.app */,
-				5961485A1FF0B202005D677D /* KyrptoWalletTests.xctest */,
-				596148651FF0B202005D677D /* KyrptoWalletUITests.xctest */,
+				596148431FF0B202005D677D /* Bits.app */,
+				5961485A1FF0B202005D677D /* BitsTests.xctest */,
+				596148651FF0B202005D677D /* BitsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		596148451FF0B202005D677D /* KyrptoWallet */ = {
+		596148451FF0B202005D677D /* Bits */ = {
 			isa = PBXGroup;
 			children = (
 				596148461FF0B202005D677D /* AppDelegate.swift */,
@@ -107,33 +107,33 @@
 				596148551FF0B202005D677D /* Info.plist */,
 				5961484D1FF0B202005D677D /* KyrptoWallet.xcdatamodeld */,
 			);
-			path = KyrptoWallet;
+			path = Bits;
 			sourceTree = "<group>";
 		};
-		5961485D1FF0B202005D677D /* KyrptoWalletTests */ = {
+		5961485D1FF0B202005D677D /* BitsTests */ = {
 			isa = PBXGroup;
 			children = (
 				5961485E1FF0B202005D677D /* KyrptoWalletTests.swift */,
 				596148601FF0B202005D677D /* Info.plist */,
 			);
-			path = KyrptoWalletTests;
+			path = BitsTests;
 			sourceTree = "<group>";
 		};
-		596148681FF0B202005D677D /* KyrptoWalletUITests */ = {
+		596148681FF0B202005D677D /* BitsUITests */ = {
 			isa = PBXGroup;
 			children = (
 				596148691FF0B202005D677D /* KyrptoWalletUITests.swift */,
 				5961486B1FF0B202005D677D /* Info.plist */,
 			);
-			path = KyrptoWalletUITests;
+			path = BitsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		596148421FF0B202005D677D /* KyrptoWallet */ = {
+		596148421FF0B202005D677D /* Bits */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5961486E1FF0B202005D677D /* Build configuration list for PBXNativeTarget "KyrptoWallet" */;
+			buildConfigurationList = 5961486E1FF0B202005D677D /* Build configuration list for PBXNativeTarget "Bits" */;
 			buildPhases = (
 				5961483F1FF0B202005D677D /* Sources */,
 				596148401FF0B202005D677D /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = KyrptoWallet;
+			name = Bits;
 			productName = KyrptoWallet;
-			productReference = 596148431FF0B202005D677D /* KyrptoWallet.app */;
+			productReference = 596148431FF0B202005D677D /* Bits.app */;
 			productType = "com.apple.product-type.application";
 		};
-		596148591FF0B202005D677D /* KyrptoWalletTests */ = {
+		596148591FF0B202005D677D /* BitsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 596148711FF0B202005D677D /* Build configuration list for PBXNativeTarget "KyrptoWalletTests" */;
+			buildConfigurationList = 596148711FF0B202005D677D /* Build configuration list for PBXNativeTarget "BitsTests" */;
 			buildPhases = (
 				596148561FF0B202005D677D /* Sources */,
 				596148571FF0B202005D677D /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				5961485C1FF0B202005D677D /* PBXTargetDependency */,
 			);
-			name = KyrptoWalletTests;
+			name = BitsTests;
 			productName = KyrptoWalletTests;
-			productReference = 5961485A1FF0B202005D677D /* KyrptoWalletTests.xctest */;
+			productReference = 5961485A1FF0B202005D677D /* BitsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		596148641FF0B202005D677D /* KyrptoWalletUITests */ = {
+		596148641FF0B202005D677D /* BitsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 596148741FF0B202005D677D /* Build configuration list for PBXNativeTarget "KyrptoWalletUITests" */;
+			buildConfigurationList = 596148741FF0B202005D677D /* Build configuration list for PBXNativeTarget "BitsUITests" */;
 			buildPhases = (
 				596148611FF0B202005D677D /* Sources */,
 				596148621FF0B202005D677D /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				596148671FF0B202005D677D /* PBXTargetDependency */,
 			);
-			name = KyrptoWalletUITests;
+			name = BitsUITests;
 			productName = KyrptoWalletUITests;
-			productReference = 596148651FF0B202005D677D /* KyrptoWalletUITests.xctest */;
+			productReference = 596148651FF0B202005D677D /* BitsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5961483E1FF0B202005D677D /* Build configuration list for PBXProject "KyrptoWallet" */;
+			buildConfigurationList = 5961483E1FF0B202005D677D /* Build configuration list for PBXProject "Bits" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				596148421FF0B202005D677D /* KyrptoWallet */,
-				596148591FF0B202005D677D /* KyrptoWalletTests */,
-				596148641FF0B202005D677D /* KyrptoWalletUITests */,
+				596148421FF0B202005D677D /* Bits */,
+				596148591FF0B202005D677D /* BitsTests */,
+				596148641FF0B202005D677D /* BitsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -263,7 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5961484F1FF0B202005D677D /* KyrptoWallet.xcdatamodeld in Sources */,
-				596148781FF0B44B005D677D /* LoginController.swift in Sources */,
+				59132A841FF0DE1F00C402FA /* LoginController.swift in Sources */,
 				596148471FF0B202005D677D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,12 +289,12 @@
 /* Begin PBXTargetDependency section */
 		5961485C1FF0B202005D677D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 596148421FF0B202005D677D /* KyrptoWallet */;
+			target = 596148421FF0B202005D677D /* Bits */;
 			targetProxy = 5961485B1FF0B202005D677D /* PBXContainerItemProxy */;
 		};
 		596148671FF0B202005D677D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 596148421FF0B202005D677D /* KyrptoWallet */;
+			target = 596148421FF0B202005D677D /* Bits */;
 			targetProxy = 596148661FF0B202005D677D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -432,10 +432,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K74E6J262X;
-				INFOPLIST_FILE = KyrptoWallet/Info.plist;
+				INFOPLIST_FILE = Bits/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tamerbader.KyrptoWallet;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamerbader.Bits;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,10 +448,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K74E6J262X;
-				INFOPLIST_FILE = KyrptoWallet/Info.plist;
+				INFOPLIST_FILE = Bits/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tamerbader.KyrptoWallet;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamerbader.Bits;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -471,7 +471,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KyrptoWallet.app/KyrptoWallet";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bits.app/Bits";
 			};
 			name = Debug;
 		};
@@ -488,7 +488,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KyrptoWallet.app/KyrptoWallet";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bits.app/Bits";
 			};
 			name = Release;
 		};
@@ -527,7 +527,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5961483E1FF0B202005D677D /* Build configuration list for PBXProject "KyrptoWallet" */ = {
+		5961483E1FF0B202005D677D /* Build configuration list for PBXProject "Bits" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5961486C1FF0B202005D677D /* Debug */,
@@ -536,7 +536,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5961486E1FF0B202005D677D /* Build configuration list for PBXNativeTarget "KyrptoWallet" */ = {
+		5961486E1FF0B202005D677D /* Build configuration list for PBXNativeTarget "Bits" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5961486F1FF0B202005D677D /* Debug */,
@@ -545,7 +545,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		596148711FF0B202005D677D /* Build configuration list for PBXNativeTarget "KyrptoWalletTests" */ = {
+		596148711FF0B202005D677D /* Build configuration list for PBXNativeTarget "BitsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				596148721FF0B202005D677D /* Debug */,
@@ -554,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		596148741FF0B202005D677D /* Build configuration list for PBXNativeTarget "KyrptoWalletUITests" */ = {
+		596148741FF0B202005D677D /* Build configuration list for PBXNativeTarget "BitsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				596148751FF0B202005D677D /* Debug */,
