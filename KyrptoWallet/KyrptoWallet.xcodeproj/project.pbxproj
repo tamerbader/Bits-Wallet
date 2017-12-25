@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		596148471FF0B202005D677D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596148461FF0B202005D677D /* AppDelegate.swift */; };
-		596148491FF0B202005D677D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596148481FF0B202005D677D /* ViewController.swift */; };
 		5961484C1FF0B202005D677D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5961484A1FF0B202005D677D /* Main.storyboard */; };
 		5961484F1FF0B202005D677D /* KyrptoWallet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5961484D1FF0B202005D677D /* KyrptoWallet.xcdatamodeld */; };
 		596148511FF0B202005D677D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 596148501FF0B202005D677D /* Assets.xcassets */; };
 		596148541FF0B202005D677D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596148521FF0B202005D677D /* LaunchScreen.storyboard */; };
 		5961485F1FF0B202005D677D /* KyrptoWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961485E1FF0B202005D677D /* KyrptoWalletTests.swift */; };
 		5961486A1FF0B202005D677D /* KyrptoWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596148691FF0B202005D677D /* KyrptoWalletUITests.swift */; };
+		596148781FF0B44B005D677D /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596148771FF0B44B005D677D /* LoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		596148431FF0B202005D677D /* KyrptoWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KyrptoWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		596148461FF0B202005D677D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		596148481FF0B202005D677D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5961484B1FF0B202005D677D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5961484E1FF0B202005D677D /* KyrptoWallet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KyrptoWallet.xcdatamodel; sourceTree = "<group>"; };
 		596148501FF0B202005D677D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		596148651FF0B202005D677D /* KyrptoWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KyrptoWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		596148691FF0B202005D677D /* KyrptoWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KyrptoWalletUITests.swift; sourceTree = "<group>"; };
 		5961486B1FF0B202005D677D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		596148771FF0B44B005D677D /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginController.swift; path = KyrptoWallet/ViewControllers/LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +79,7 @@
 		5961483A1FF0B202005D677D = {
 			isa = PBXGroup;
 			children = (
+				596148771FF0B44B005D677D /* LoginController.swift */,
 				596148451FF0B202005D677D /* KyrptoWallet */,
 				5961485D1FF0B202005D677D /* KyrptoWalletTests */,
 				596148681FF0B202005D677D /* KyrptoWalletUITests */,
@@ -100,7 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				596148461FF0B202005D677D /* AppDelegate.swift */,
-				596148481FF0B202005D677D /* ViewController.swift */,
 				5961484A1FF0B202005D677D /* Main.storyboard */,
 				596148501FF0B202005D677D /* Assets.xcassets */,
 				596148521FF0B202005D677D /* LaunchScreen.storyboard */,
@@ -263,7 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5961484F1FF0B202005D677D /* KyrptoWallet.xcdatamodeld in Sources */,
-				596148491FF0B202005D677D /* ViewController.swift in Sources */,
+				596148781FF0B44B005D677D /* LoginController.swift in Sources */,
 				596148471FF0B202005D677D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K74E6J262X;
 				INFOPLIST_FILE = KyrptoWallet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tamerbader.KyrptoWallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K74E6J262X;
 				INFOPLIST_FILE = KyrptoWallet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tamerbader.KyrptoWallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
