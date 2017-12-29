@@ -15,6 +15,9 @@
 		596148541FF0B202005D677D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596148521FF0B202005D677D /* LaunchScreen.storyboard */; };
 		5961485F1FF0B202005D677D /* KyrptoWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961485E1FF0B202005D677D /* KyrptoWalletTests.swift */; };
 		5961486A1FF0B202005D677D /* KyrptoWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596148691FF0B202005D677D /* KyrptoWalletUITests.swift */; };
+		597EF4991FF3BE0B0089504B /* DrawingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597EF4981FF3BE0B0089504B /* DrawingController.swift */; };
+		599F471E1FF1F74C00A491A1 /* KeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599F471D1FF1F74C00A491A1 /* KeychainSwift.swift */; };
+		599F47201FF1FB5D00A491A1 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599F471F1FF1FB5D00A491A1 /* Wallet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		596148651FF0B202005D677D /* BitsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		596148691FF0B202005D677D /* KyrptoWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KyrptoWalletUITests.swift; sourceTree = "<group>"; };
 		5961486B1FF0B202005D677D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		597EF4981FF3BE0B0089504B /* DrawingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DrawingController.swift; path = Bits/DrawingController.swift; sourceTree = "<group>"; };
+		599F471D1FF1F74C00A491A1 /* KeychainSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainSwift.swift; sourceTree = "<group>"; };
+		599F471F1FF1FB5D00A491A1 /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				59132A831FF0DE1F00C402FA /* LoginController.swift */,
+				597EF4981FF3BE0B0089504B /* DrawingController.swift */,
 				596148451FF0B202005D677D /* Bits */,
 				5961485D1FF0B202005D677D /* BitsTests */,
 				596148681FF0B202005D677D /* BitsUITests */,
@@ -106,6 +113,8 @@
 				596148521FF0B202005D677D /* LaunchScreen.storyboard */,
 				596148551FF0B202005D677D /* Info.plist */,
 				5961484D1FF0B202005D677D /* KyrptoWallet.xcdatamodeld */,
+				599F471D1FF1F74C00A491A1 /* KeychainSwift.swift */,
+				599F471F1FF1FB5D00A491A1 /* Wallet.swift */,
 			);
 			path = Bits;
 			sourceTree = "<group>";
@@ -262,9 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				597EF4991FF3BE0B0089504B /* DrawingController.swift in Sources */,
+				599F47201FF1FB5D00A491A1 /* Wallet.swift in Sources */,
 				5961484F1FF0B202005D677D /* KyrptoWallet.xcdatamodeld in Sources */,
 				59132A841FF0DE1F00C402FA /* LoginController.swift in Sources */,
 				596148471FF0B202005D677D /* AppDelegate.swift in Sources */,
+				599F471E1FF1F74C00A491A1 /* KeychainSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

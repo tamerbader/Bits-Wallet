@@ -7,3 +7,17 @@
 //
 
 import Foundation
+
+class Wallet {
+    
+    public func createWallet() {
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+}

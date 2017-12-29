@@ -73,12 +73,24 @@ class LoginController: UIViewController {
             pinTwo.image = #imageLiteral(resourceName: "PinFill")
             pinThree.image = #imageLiteral(resourceName: "PinFill")
             pinFour.image = #imageLiteral(resourceName: "PinFill")
+            createUserAccounts()
         default:
             pinOne.image = #imageLiteral(resourceName: "PinEmpty")
             pinTwo.image = #imageLiteral(resourceName: "PinEmpty")
             pinThree.image = #imageLiteral(resourceName: "PinEmpty")
             pinFour.image = #imageLiteral(resourceName: "PinEmpty")
         }
+    }
+    
+    func createUserAccounts() {
+        savePin()
+        performSegue(withIdentifier: "drawingBoard", sender: nil)
+        
+    }
+    
+    func savePin() {
+        let keychain = KeychainSwift()
+        keychain.set(pin, forKey: "pin")
     }
     
     
